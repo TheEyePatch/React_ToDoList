@@ -1,10 +1,10 @@
 import Categories from "../components/Categories";
-
-function CategoriesPage(){
+function CategoriesPage(props){
+  
   return(
-    <div>
+    <section className = {props.class}>
       <Categories/>
-    </div>
+    </section>
   )
 };
 
