@@ -1,9 +1,10 @@
-import Task from './Task'
+// import Task from './Task'
 
-function Category(){
+function Category(props){
   return (
     <div>
-      <Task/>
+      <p>{props.username}</p>
+      <p>{props.data}</p>
     </div>
   )  
 }
